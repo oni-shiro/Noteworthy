@@ -11,7 +11,7 @@ import java.util.List;
 @Table
 public class User {
 
-
+//user entity
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int userId;
 
