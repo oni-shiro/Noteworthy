@@ -1,0 +1,13 @@
+(backend)
+process flow:
+when in sign on page user signs on
+we store the users details on initial sign on
+front end sends a request with user id(in our case email) and text block, we save it
+for showing we return all the notes with that email id
+filteration will be done on the front end part
+
+
+Objects
+
+1. user - name,email
+2. notes - id, user_email, topic
